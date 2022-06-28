@@ -1,0 +1,11 @@
+# After creating this environment, install pytorch by running the following command:
+# conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+# pip install -U sentence-transformers
+name: bioasq10-synergy
+dependencies:
+  - python=3.9
+  - transformers
+  - sentencepiece
+  - progressbar2
+  - scikit-learn
+  - nltk
